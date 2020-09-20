@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+
+    <head>
+        <title>Registration page</title>
+    </head>
+
+    <body bgcolor="aqua">
+        <h1><center>User Information</center></h1>
+        <form autocomplete="on" target="_self">
+            <fieldset>
+                <legend>Personal Information</legend>
+
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="fname" required autofocus><br>
+
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="lname" required><br>
+            
+            <label for="fname">Nick Name(optional):</label><br>
+            <input type="text" id="fname" name="fname" placeholder="nick name" required><br>
+
+            <label for="email">E-Mail:</label><br>
+            <input type="email" id="email" name="email" placeholder="xyz@gmail.com,xyz@its.edu.in" required><br>
+            
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" id="date" name="dob" required>
+            <input type="submit" value="submit"><br>
+
+            <label for="gender">Gender</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br>
+
+            <label for="address">Address:</label><br>
+            <textarea name="address" style="width:600px; height:100px;">Enter your Address.</textarea><br>
+
+            <label for="qualification">Highest Qualification:</label><br>
+            <input type="radio" id="ug" name="qualification" value="ug">
+            <label for="ug">UG</label><br>
+            <input type="radio" id="pg" name="qualification" value="phd">
+            <label for="ug">PG</label><br>
+            <input type="radio" id="phd" name="qualification" value="phd">
+            <label for="ug">PhD</label><br>
+
+            <label for="Citizenship">Citizenship:</label><br>
+            <input type="checkbox" id="india" name="Citizenship" value="india">
+            <label for="india">India</label><br>
+            <input type="checkbox" id="usa" name="Citizenship" value="usa">
+            <label for="usa">USA</label><br>
+            <input type="checkbox" id="uk" name="Citizenship" value="uk">
+            <label for="uk">UK</label><br>
+
+            </fieldset>
+
+            <label for="experience">Visit Experience:</label><br>
+            <textarea name="experience" style="width:600px; height:100px;">Describe your experience.</textarea><br>
+
+            <label for="myfile">Select a file:</label>
+            <input type="file" id="myfile" name="myfile" multiple>
+            <p>To select multiple files, hold down the CTRL or SHIFT key while selecting.</p>
+
+            <input type="submit" value="Submit"><br>
+            <input type="reset">
+        </form> 
+    </body>
+
+</html>
