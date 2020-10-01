@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function form() {
+            var x = document.forms["myForm"]["fname"].value;
+            if (x == "Ram")
+            {
+                alert("Name is submitted");
+                return true;
+            }
+            else if (x == "1")
+            {
+                alert("Age is submitted");
+                return true;
+            }
+            else
+            {
+                alert("Please fill the form!");
+                return false;
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <form name="myForm" onsubmit="return form()" method="post">
+        Name: <input type="text" name="fname">
+        <input type="submit" value="Submit"><br>
+        Age: <input type="number" name="fname">
+        <input type="submit" value="Submit"><br>
+        Address: <input type="text" name="fname">
+        <input type="submit" value="Submit"><br>
+        E-Mail: <input type="text" name="fname">
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>

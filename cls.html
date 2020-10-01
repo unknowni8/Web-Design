@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function add() {
+            a = (document.getElementById("first").value);
+            b = (document.getElementById("second").value);
+            c = (document.getElementById("third").value);
+            d = (document.getElementById("fourth").value);
+            document.write("<h1>" + a + b + c + d + "</h1>");
+        }
+    </script>
+</head>
+
+<body>Enter the Name: <input id="first">
+    Enter the age: <input id="second">
+    Enter the address: <input id="third">
+    Enter the email_id: <input id="fourth"><br>
+    <button onclick="add()" value="DISPLAY"></button>
+    <input id="answer">
+
+</body>
+
+</html>
